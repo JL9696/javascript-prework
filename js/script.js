@@ -1,5 +1,4 @@
-
-
+{
 const playGame = function (playerInput){
 
 	clearMessages();	
@@ -66,3 +65,4 @@ const playGame = function (playerInput){
   	document.getElementById('play-scissors').addEventListener('click', function(){
     (playGame(3));});
 
+}
